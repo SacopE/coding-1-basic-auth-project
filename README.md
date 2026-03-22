@@ -24,10 +24,9 @@ In this project, you will design and build a web application with a basic **logi
 
 | Part I: Planning & Design (15 pts) |
 |----------|
-* Decide on a game idea and core goal
-* Game rules and player actions are written or sketched out
-* Main objects (player, obstacles, goals, enemies, etc.) are identified
-* Write a simple plan in the planning_and_design.txt file showing how the game will work step-by-step
+* Decide on an app idea and core goal
+* Application idea is written or sketched out
+* Write a simple plan in the planning_and_design.txt file showing how the app will work step-by-step
 * Do not move forward to the next phase until checking with Mr. Jackson
 
 | Phase II: Build Login & Registration Structure (15 pts) |
