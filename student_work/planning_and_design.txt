@@ -1,0 +1,37 @@
+=========================
+APP PLANNING & DESIGN
+=========================
+
+1. PROJECT NAME & THEME
+-------------------------
+- What is your app called, and what type of app is it?  ClockBock
+- What style or vibe do you want users to experience? a romance type of vibe
+- What about your app will require a log-in structure? It will be neccessary to log into your dating profile
+
+2. CORE FUNCTIONALITY
+-------------------------
+- What are the essential features your app must have?  A log in screen, a create account screen, and a customize dating profile screen
+- What optional features could make your app more interactive or personalized? a dating profile
+
+3. SECRET OR PERSONALIZED CONTENT
+
+-------------------------
+- What content will users see after logging in?  they will see their own dating profile
+- Will this content change depending on who is using the app (admin, user, special user?) Yes, depending on who you are, your dating
+profile will change
+
+4. USER EXPERIENCE (UX) DESIGN
+-------------------------
+- How should your app look and feel? it will have a love, maybe valentines day theme
+- How will users navigate between pages? Clicking on different buttons
+
+5. SECURITY FEATURES
+-------------------------
+- What password and authentication rules will you enforce?  password must be over 4 characters long and usernames must be unique
+- How will you protect secret pages from unauthorized access?
+
+6. OPTIONAL CREATIVE ENHANCEMENTS
+-------------------------
+- What customization or fun features could users enjoy? the person would be able to customize their dating profile to an extent
+- Are there interactive elements, like games, quizzes, or badges, you could include? their would be a little game that a user could play
+to try and match with different made up characters
