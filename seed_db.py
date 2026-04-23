@@ -43,10 +43,10 @@ def seed_database():
         for title, reason in sample_foids:
             hashed_reason = bcrypt.hashpw(reason.encode("utf-8"), bcrypt.gensalt())
             conn.execute(
-                "INSERT INTO users (title, reason) VALUES (?, ?)",
+                "INSERT INTO foids (title, reason) VALUES (?, ?)",
                 (title, hashed_reason)
             )
-            print(f"Created user: {username}")
+            print(f"Created foid: {title}")
         
         conn.commit()
         print("\nDatabase seeding complete!")

@@ -90,7 +90,7 @@ register_page = f"""{base_style}
 
 secret_page = f"""{base_style}
 <div class="card">
-<h2>🎉 Not So Secret Room</h2>
+<h2>Dashboard</h2>
 <h3>Welcome, {{{{ username }}}}!</h3>
 <p><strong>Your Favorite Foid:</strong> {{{{favoriteFoid}}}}</p>
 <p>You got into the secret room!</p>
@@ -100,9 +100,9 @@ secret_page = f"""{base_style}
     </div>
 </div>
 """
-test_page = f"""{base_style}
+foids = f"""{base_style}
 <div class="card">
-<h2>Test Page</h2>
+<h2>Foids</h2>
 <p>This is a test page.</p>
 <a href="/"><button>Back to login</button></a>
 </div>
