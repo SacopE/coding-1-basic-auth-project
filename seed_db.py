@@ -26,12 +26,25 @@ def seed_database():
         ("charlie", "MyPassword789#"),
     ]
     
+    
+    sample_foids = [
+        ("Clavicular", "He frame mogged the ASU Frat Leader"),
+        ("foidTwo", "foidReasonTwo"),
+        ("foidThree", "foidReasonThree"),
+    ]
     try:
         for username, password in sample_users:
             hashed_pw = bcrypt.hashpw(password.encode("utf-8"), bcrypt.gensalt())
             conn.execute(
                 "INSERT INTO users (username, password) VALUES (?, ?)",
                 (username, hashed_pw)
+            )
+            print(f"Created user: {username}")
+        for title, reason in sample_foids:
+            hashed_reason = bcrypt.hashpw(reason.encode("utf-8"), bcrypt.gensalt())
+            conn.execute(
+                "INSERT INTO users (title, reason) VALUES (?, ?)",
+                (title, hashed_reason)
             )
             print(f"Created user: {username}")
         
